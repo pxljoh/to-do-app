@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/pxljoh/to-do-app.git/static/css/main.782f2dd4.css",
-    "main.js": "/pxljoh/to-do-app.git/static/js/main.c8a700db.js",
-    "index.html": "/pxljoh/to-do-app.git/index.html",
-    "main.782f2dd4.css.map": "/pxljoh/to-do-app.git/static/css/main.782f2dd4.css.map",
-    "main.c8a700db.js.map": "/pxljoh/to-do-app.git/static/js/main.c8a700db.js.map"
+    "main.css": "/to-do-app.git/static/css/main.782f2dd4.css",
+    "main.js": "/to-do-app.git/static/js/main.c8a700db.js",
+    "index.html": "/to-do-app.git/index.html",
+    "main.782f2dd4.css.map": "/to-do-app.git/static/css/main.782f2dd4.css.map",
+    "main.c8a700db.js.map": "/to-do-app.git/static/js/main.c8a700db.js.map"
   },
   "entrypoints": [
     "static/css/main.782f2dd4.css",
