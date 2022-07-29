@@ -1,0 +1,25 @@
+.add{
+    border:none;
+    background: rgb(81, 237, 227);
+  
+}
+
+.add:active{
+    color:green;
+    background-color: rgb(184, 196, 220);
+}
+
+.remove{
+    border:none;
+    height:50px;
+    width:80px;
+    background-color: rgb(28, 15, 15);
+    color:rgb(205, 63, 106)
+
+}
+
+
+
+.output{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}

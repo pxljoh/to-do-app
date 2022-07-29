@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(41, 20, 66);
+  color:rgb(237, 195, 81);
+  font-family: 'Courier New', Courier, monospace;
 }
 
 code {
