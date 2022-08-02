@@ -1,0 +1,56 @@
+.input{
+    
+    border: 2px solid rgba(0, 0, 0, 0.11);
+    height:52px;
+    color:rgb(8, 8, 8);
+    opacity: 60%;
+    
+}
+
+
+.add {
+    border: none;
+    background: rgb(71, 255, 78);
+    
+}
+
+.add:active {
+    color: rgb(65, 163, 65);
+    background-color: rgb(184, 196, 220);
+}
+
+.remove {
+    border: none;
+    height: 50px;
+    width: 70px;
+    background-color: rgba(132, 25, 219, 0);
+    color: rgb(230, 20, 83);
+   
+}
+.remove:hover{
+    transition: 0.2s;;
+    background-color: rgba(17, 29, 78, 0.274);
+}
+.remove:active{
+    background-color: white;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+.task-title {
+    font-family: 'Rock Salt', cursive;
+    color: rgb(128, 184, 43);
+}
+
+.output {
+    font-family: 'Titillium Web', sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 18px;
+    text-transform:none;
+    
+   
+}
+
+.list{
+    background-color: rgb(125, 39, 231);
+    color:rgb(71, 255, 78);   
+    
+}
