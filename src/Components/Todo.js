@@ -14,16 +14,19 @@ function Todo() {
   }
 
   return (
-    <div className="mt0">
-      <div className="task-main  bg-white ma0 pa3 w-100 tc">
-        <h1 className="task-title  f2 tc">Taskapp</h1>
-
-        <input id="input" className="input f4  ma0  mt2 br3" maxLength="20" type="text" placeholder=" Today's to do's..."
+    <div className="output-main mt0">
+      <div id="logo-main">
+      <img src="https://i.ibb.co/89Wn1XV/taskapp.png" id="logo" alt="" />
+      </div>
+      
+      <div className="task-main ma0 pa3 w-100 tc">
+        
+        <input id="input" className="input f4  ma0  mt0 br3" maxLength="20" type="text" placeholder="type tasks in here.."
           onPaste={e => e.preventDefault()} />
-        <button id="add" className="add ph4 pv3 br3 ml3 ma0 f4  pointer mb6 " onClick={addTask}>✎</button>
+        <button id="add" className="add ph3 pv2 br2 ml3 ma0 f5  mt4 pointer mb6 shadow-2 " onClick={addTask}>✎</button>
       </div>
 
-      <div className="list">
+      <div className="list pt2">
         {tasks.map((item, index) => (
           <div key={item} id={index} className="tracked  pv2 w-100 bb2 b--black center pa3 mt0 flex justify-between"
             onClick={(e) => {
@@ -53,7 +56,7 @@ function Todo() {
                 setCheck(!check)
               }
             }>{index + 1}- {item}</h2>
-            <button className="remove mr0 br3 mt3 pointer shadow-5 " onClick={() => {
+            <button className="remove mr0 br2 mt3 pointer shadow-5 " onClick={() => {
               if (tasks.length > 0) {
                 setTasks(tasks.filter((item, _index) => _index !== index));
               }
@@ -63,7 +66,7 @@ function Todo() {
         ))}
       </div>
 
-      <p className="footer tc pa3 f7 dark-pink tracked pa2  "> 0.0.1 2022-J</p>
+      <p className="footer tc pa3 f7 dark-pink tracked pa2 "> 0.0.1 2022-J</p>
     </div>
   )
 }
